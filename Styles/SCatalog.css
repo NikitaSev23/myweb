@@ -1,0 +1,211 @@
+
+a {text-decoration: none; color: inherit;}
+input{
+    height: 35px;
+    width: 300px;
+    font-size: 16px;
+    font-family: Arial;
+    border: 2px solid black;
+    direction:unset;
+    border-radius: 5px;
+    text-indent: 10px;
+}
+.B{
+    width: 240px;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: Arial;
+    font-size: 16px;
+    margin: 5px 0 0 5px;
+    cursor: pointer;
+    font-weight: bolder;
+    
+}
+.two .B{
+    height: 65px;
+    border: none;
+    align-self: center;
+    font-size: 19px;
+    margin: 0 30px 0 0 ;
+}
+.buttom{
+    padding: 5 20 5 20;
+    border-radius: 5px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.product:hover{
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+}
+.product:hover button {
+    display: block;
+}
+.product button{
+    display: none;
+}
+.product{
+    display: grid;
+    width: 250px;
+    height: 450px;
+    border-radius: 10px;
+    margin: 2px;
+    background-color: white;
+    grid-template-areas: "a" "b" "c" "d";
+    grid-template-rows: 200px 35px 145px 70px;
+    padding: 0px;
+    font-family: Arial;
+    justify-items: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    align-self: start;
+    justify-self: start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.Header{
+    z-index: 5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: grid;
+    width: 100%;
+    height: 125px;
+    grid-template-areas: "a b c";
+    grid-template-rows: 125px;
+    grid-template-columns: 240px 900px;
+    justify-items: center;
+    align-items: center;
+}
+.Table{
+    display: grid;
+    grid-template-areas:
+                         "d f f "
+                         "d e e "
+                         "d e e ";
+    grid-template-rows: 100px minmax(300px, auto);
+    grid-template-columns: 240px 900px;
+}
+.Hooter{
+    display: grid; 
+    grid-template-areas: "a" "b";
+    margin: 20px; 
+    width: 600px; 
+    border: 2px solid black; 
+    border-radius: 10px; 
+    padding: 10px; 
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    font-size: 18px; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+.gorizontal a{
+    padding: 120px 20px 1px 20px;
+    background-color: white;
+    font-size: 32px;
+    font-family: Arial;
+    color: black;
+}
+.gorizontal a:hover{
+    background-color: #FF4B4B;
+    color: aliceblue;
+    align-self: center;
+}
+.gorizontal{
+    align-self: end;
+}
+
+.product_open{
+    position: fixed;
+    margin: auto;
+    inset: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    background: rgba(255, 255, 255, 0.53);
+    backdrop-filter: blur(6.199999809265137px);
+
+}
+.product_card{
+    display: grid;
+    width: 720px;
+    height: 576px;
+    border-radius: 25px;
+    background: #FFF;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+    position:absolute;
+    margin: auto;
+    inset: 0;
+
+    grid-template-areas: "p  p  sl"
+                         "t1 t1 s"
+                         "t2  t2  b";
+    grid-template-columns: 350px 10px;
+    grid-template-rows: 350px 150px;
+    /*align-items: center;*/
+    padding: 20px;
+}
+.product_card .back{
+    padding: 0;
+}
+.text{
+    font-family: Arial;
+    font-weight: bold;
+}
+.back{
+    display: flex;
+    margin-left: 101%;
+    height:60px;
+    width: 60px;
+    border: none;
+    border-radius: 10px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+a:hover svg .shit {
+    stroke:white;
+}
+.two a:hover{
+    background: #FF4B4B;
+}
+.size{
+    display: flex;
+    width: 49px;
+    height: 49px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px 5px 0px;
+    font-family: Arial;
+    font-weight: bold;
+    cursor: pointer;
+}
+.search_bar{
+    position: relative;
+    display: flex;
+    height: 50px; 
+    width: 500px; 
+    left: 290px;
+    top: 28px;
+    align-items: center;
+}
+body {
+    margin: 0;
+    padding-top: 5px;
+}
+.AC_Circle{
+    display: grid;
+    grid-template-areas: "a b d"
+                         "c b d";
+    grid-template-columns: 60px 150px 60px;
+    grid-template-rows: minmax(30px, auto) minmax(30px, auto);
+    row-gap: 5px;
+    align-items: center;
+    justify-items: center;
+    
+}

@@ -1,0 +1,87 @@
+body{
+    background: white;
+    padding-top: 5px;
+    margin: 0px;
+}
+a {text-decoration: none; color: inherit;}
+img{ pointer-events: none;}
+.Header{
+    z-index: 5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: grid;
+    width: 100%;
+    height: 125px;
+    grid-template-areas: "a b c";
+    grid-template-rows: 125px;
+    grid-template-columns: 240px 900px;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+}
+.BrendTable{
+    display: grid;
+    width: 1300px;
+    height: 500px;
+    place-items: center;
+    margin: auto;
+    grid-template-areas:  "a b";
+    z-index: 1;
+    font-family: Arial;
+}
+input{
+    height: 35px;
+    width: 300px;
+    font-size: 16px;
+    font-family: Arial;
+    border: 2px solid black;
+    direction:unset;
+    border-radius: 5px;
+    text-indent: 10px;
+}
+.buttom{
+    padding: 5 20 5 20;
+    border-radius: 5px;
+    font-family: Arial;
+    font-weight:bold;
+}
+.gorizontal a{
+    padding: 120px 20px 1px 20px;
+    background-color: white;
+    font-size: 32px;
+    font-family: Arial;
+    color: black;
+}
+.gorizontal a:hover{
+    background-color: #FF4B4B;
+    color: aliceblue;
+    align-self: center;
+}
+.gorizontal{
+    align-self: end;
+}
+.my-swiper {
+    width: 1300px;
+    height: 500px;
+}
+.my-swiper-image img{
+   max-width: 100%;
+}
+.my-swiper .swiper-button-prev::after,
+           .swiper-button-next::after{
+    color: #FF4B4B;
+    font-weight: bold;
+}
+.my-swiper .swiper-pagination-bullet{
+    background-color: #FF4B4B;
+}
+.AC_Circle{
+    display: grid;
+    grid-template-areas: "a b d"
+                         "c b d";
+    grid-template-columns: 60px 150px 60px;
+    grid-template-rows: minmax(30px, auto) minmax(30px, auto);
+    row-gap: 5px;
+    align-items: center;
+    justify-items: center;
+    
+}

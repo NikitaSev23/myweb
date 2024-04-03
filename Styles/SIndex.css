@@ -1,0 +1,190 @@
+body{
+    background: white;
+    margin: 0;
+    padding-top: 5px;
+}
+a {text-decoration: none; color: inherit;}
+img{ pointer-events: none;}
+.posters img{
+    margin: 15px 0 0 0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.MainInfo{
+  font-family: Arial;
+}
+.Poster {
+    position: relative;
+    text-align: center;
+}
+.Poster a {
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: rgba(255, 255, 255, 0.43);
+    backdrop-filter: blur(3px);
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Header{
+    z-index: 5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: grid;
+    width: 100%;
+    height: 125px;
+    grid-template-areas: "a b c";
+    grid-template-rows: 125px;
+    grid-template-columns: 240px 900px;
+    justify-items: center;
+    align-items: center;
+}
+input{
+    height: 35px;
+    width: 300px;
+    font-size: 16px;
+    font-family: Arial;
+    border: 2px solid black;
+    direction:unset;
+    border-radius: 5px;
+    text-indent: 10px;
+}
+.B{
+    height: 27px;
+
+    width: 80px;
+    border: 2px solid #D9D9D9;
+    border-radius: 5px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight:bold;
+    cursor: pointer;
+    background: #D9D9D9;
+    text-align: center;
+}
+.buttom{
+    padding: 5 20 5 20;
+    border-radius: 5px;
+    font-family: Arial;
+    font-weight:bold;
+}
+.Table{
+    z-index: 5;
+    display: grid;
+    width: 100%;
+    height: 928px;
+    grid-template-areas: "a b c"
+                         "d e e"
+                         "d e e";
+    grid-template-rows: 125px;
+    grid-template-columns: 240px 900px;
+    justify-items: center;
+    align-items: center;
+}
+.gorizontal a{
+    padding: 120px 20px 1px 20px;
+    background-color: white;
+    font-size: 32px;
+    font-family: Arial;
+    color: black;
+}
+.gorizontal a:hover{
+    background-color: #FF4B4B;
+    color: aliceblue;
+    align-self: center;
+}
+.gorizontal{
+    align-self: end;
+}
+#Franchise{
+    display: grid;
+    position: absolute;
+    grid-template-areas: "Text Text"
+                         "Inputs1 Inputs2"
+                         "buttom buttom";
+    width: auto;
+    height: auto;
+}
+.input{
+    display: flex;
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+    align-items: center;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(52, 50, 50);
+    padding-left: 10px;
+    margin-bottom: 30px;
+    background: rgba(148, 141, 141, 0.43);
+}
+.inputcheck{
+    display: flex;
+    height: 50px;
+    width: 400px;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.input input{
+    border: none;
+    text-indent: 5px;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(52, 50, 50);
+    background: none;
+}
+input:focus{
+    outline: none;
+}
+.inputcheck input[type = "checkbox"]{
+    width: 25px;
+    margin-right: 10px;
+    margin-top: 0;
+    background-color: #FF4B4B;
+    color:aliceblue;
+}
+.B2:hover{
+    background-color:#FF4B4B;
+    border: #FF4B4B;
+    color: white;
+}
+.B2{
+    width: 240px;
+    height: 45px;
+    border: 2px solid #D9D9D9;
+    background: #D9D9D9;
+    border-radius: 5px;
+    font-family: Arial;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+textarea{
+    width: 390px;
+    height: 305px;
+    background: none;
+    border: 2px solid rgb(52, 50, 50) ;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Arial;
+    resize: none; 
+}
+.AC_Circle{
+    display: grid;
+    grid-template-areas: "a b d"
+                         "c b d";
+    grid-template-columns: 60px 150px 60px;
+    grid-template-rows: minmax(30px, auto) minmax(30px, auto);
+    row-gap: 5px;
+    align-items: center;
+    justify-items: center;
+    
+}

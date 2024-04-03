@@ -1,0 +1,106 @@
+body{
+    display: block;
+    border: 15px solid #FF4B4B;
+    width: 1450px;
+    height: 800px;
+    margin: auto;
+    margin-top: 17px;
+}
+a {text-decoration: none; color: inherit;}
+img{ pointer-events: none;}
+.RegTable{
+    display: grid;
+    background-color: white;
+    width: 465px;
+    height: 559px;
+    position:absolute;
+    inset: 0;
+    margin:auto;
+    grid-template-areas:  "Top" "Middle" "Buttom";
+    grid-template-rows: 120px 320px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+}
+a:hover svg .shit {
+    stroke: #FF4B4B;
+}
+a:hover{
+    background: rgb(227, 227, 227);
+}
+.circle{
+    display: flex;
+    background-color: #FF4B4B;
+    border-radius: 50%;
+    position:absolute;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+.back{
+    display: flex;
+    padding: 10px;
+    margin-left: 95%;
+    height: 45px;
+    width: 80px;
+    border: none;
+    border-radius: 5%;
+    background: #FF4B4B;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+}
+.input{
+    display: flex;
+    height: 50px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 10px;
+    align-items: center;
+    font-size: 16px;
+    font-family: Arial;
+    color: #8b8989;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+input{
+    border: none;
+    text-indent: 5px;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
+}
+input:focus{
+    outline: none;
+}
+.PP{
+    color: black;
+    text-align: center;
+    font-family: Arial;
+    font-size: 52px; 
+    font-weight: 700;
+}
+.B{
+    width: 240px;
+    height: 45px;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 5px;
+    font-family: Arial;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.B:hover{
+    background-color: #212121;
+}
+#ErrorTable{
+    display: grid;
+    grid-template-areas:  "a" "b" "c";
+    justify-self: center;
+    text-align: center;
+    z-index: 20;
+    width: 80%;
+    height: 100px;
+    background: white;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
